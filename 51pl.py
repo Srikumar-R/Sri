@@ -1,4 +1,4 @@
 a=input()
 c=input().split()
-c.sort(key=int)
-print(c[1])
+c.sort(reverse=True,key=int)
+print(c[-2])
