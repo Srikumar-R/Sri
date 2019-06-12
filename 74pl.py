@@ -1,2 +1,2 @@
-u,v=input().split()
-print(int(u)**int(v))
+z,a=input().split()
+print(int(z)**int(a))
