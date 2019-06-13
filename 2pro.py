@@ -6,4 +6,4 @@ for i in range(int(v)):
         u=u[c+1:]
     if i%2==1:
         u=u[:d]
-print(a)
+print(u)
