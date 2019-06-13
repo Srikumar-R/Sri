@@ -1,9 +1,9 @@
-a,b=input().split()
+u,v=input().split()
 c=0
 d=-1
-for i in range(int(b)):
+for i in range(int(v)):
     if i%2==0:
-        a=a[c+1:]
+        u=u[c+1:]
     if i%2==1:
-        a=a[:d]
+        u=u[:d]
 print(a)
