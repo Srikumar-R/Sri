@@ -7,3 +7,5 @@ for i in b:
         break
     else:
         c+=i
+if c==b:
+    print("unique")
